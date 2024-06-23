@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinus Curve Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="controls">
+        <label for="speed">Breath duration (In/Out):</label>
+        <input type="range" id="speed" name="speed" min="3" max="7" value="4" oninput="this.nextElementSibling.value = this.value">
+        <output>4</output>
+        <output>Seconds</output>
+    </div>
+    <img src="tum-logo.svg" alt="TUM Logo" class="tum-logo">
+    <script src="script.js"></script>
+</body>
+</html>
