@@ -48,7 +48,7 @@ function drawSinusCurve(timestamp) {
 	// dotGradient.addColorStop(0, 'rgba(217, 81, 23, 1)');
 	// dotGradient.addColorStop(1, 'rgba(217, 81, 23, 0.9)');
 
-	ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+	ctx.shadowColor = 'rgba(255, 255, 255, 0.3)';
 	ctx.shadowBlur = 20;
 	ctx.shadowOffsetX = 3;
 	ctx.shadowOffsetY = 3;
